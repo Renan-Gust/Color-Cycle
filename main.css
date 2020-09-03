@@ -1,0 +1,13 @@
+body{
+    animation-name: colorcycle;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorcycle{
+    0% {background-color:#f4e749;}
+    25% {background-color: #979257}
+    50% {background-color:  #60bbf4;}
+    75% {background-color: aqua;}
+    100% {background-color: #bcef32;}
+}
